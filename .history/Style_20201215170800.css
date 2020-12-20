@@ -1,0 +1,13 @@
+
+.list-group1{
+    margin-left: -50px;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height: 100%;
+    font-size: 15px;
+}
+#displaycity,#displayTemperature,
+#displayhumidity,#displayWind,#displayUV{
+    font-size: 26px;
+}

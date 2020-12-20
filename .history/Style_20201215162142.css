@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.inerheader{
+    width: 60%;
+    text-: cornsilk;
+    background-color: cornsilk;
+    height: auto;
+    margin: 0 auto;
+  
+}
+.list-group1{
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.lead

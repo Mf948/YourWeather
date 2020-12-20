@@ -8,24 +8,104 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
 </head>
+<div style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)" class="page-holder bg-cover">
+
+    <div class="container py-5">
+      <header class="text-center text-white py-5">
+        <h1 class="display-4 font-weight-bold mb-4">Your Weather</h1>
+        <p class="lead mb-0">Accurate Weather in just a click</p>
+        <p class="font-italic">  <form id="city-form">
+            <label for="movie-input">Search for city</label>
+            <input type="text" id="city-input"><br>
+            <input id="find-city" type="submit" value="city Search">
+        </form>
+      </header>
+   
+   
+     
+        
+      </nav>
+   
+   
+   
+   
+    </div>
+   
+   
+
+
+    <div class="jumbotron">
+
+    <div class="row">
+      <div class="col-lg-2 col-sm-2">   <ul   class="list-group1">
+        <h5>Important City:</h5>
+    <li class="list-group-item">New York City</li>
+    <li class="list-group-item">Los Angeles</li>
+    <li class="list-group-item">Chicago,IL</li>
+    <li class="list-group-item">Huston,TX</li>
+    <li class="list-group-item">Phoenix,AZ</li>
+  </ul>        </div><div class="container">
+       
+        <div class="card" style="width: 18rem;">
+       <!----- <img class="card-img-top" src="..." alt="Card image cap">-->
+        <div class="card-body">
+          <h5 class="card-title"><h5 id ="displaycity"></h5></h5>
+          <p class="card-text">Temperature: <h5 id ="displayTemperature"></h5></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Humidity: <h5 id ="displayhumidity"></h5> </li>
+          <li class="list-group-item">Wind Speed: <h5 id ="displayWind"></h5></li>
+          <li class="list-group-item">UV index:<h5 id ="displayUV"></h5>  </p></li>
+        </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+      <head>5 Day Forecast:</head>
+      <div id="day1" class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Info card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div id="day2"class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div id="day3"class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">date</div>
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div id="day4" class="card text-white bg-info mb-3" style="max-width: 18rem;">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Info card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div id="day5" class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+    </div>
+
+       
+
+        
+         
+            
 <body>
-    <form id="city-form">
-        <label for="movie-input">Search for city</label>
-        <input type="text" id="city-input"><br>
-        <input id="find-city" type="submit" value="city Search">
-    </form>
-<div id="mainCity">
-    <h1 id ="displaycity">Display city</h1>
-    <h1 id ="displayTemperature">Display Temp</h1>
-    <h1 id ="displayHumidity">Display Humidity</h1>
-    <h1 id ="displayWind">Display Wind Speed</h1>
-    <h1 id ="displayUV">Display UV index</h1>
-</div>
+   
 
 <div id="city1">
 
-</div>
-   
+  
+  </div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="script.js"></script>
 </body>

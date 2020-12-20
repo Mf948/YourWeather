@@ -1,0 +1,12 @@
+
+.list-group1{
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+}
+#displaycity,#displayTemperature{
+    font-size: 26px;
+}

@@ -14,8 +14,8 @@ $(document).ready(function() {
     localStorage.setItem('cityList', city)
 
     // Here we construct our URL
-    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&cnt=" + "5" + "&appid=f235f42a755f4529b0fca0891283af30";
-
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=f235f42a755f4529b0fca0891283af30";
+    var fivedayURL ="https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=f235f42a755f4529b0fca0891283af30";
    
    
 
@@ -24,17 +24,31 @@ var displayTemperature = $("#displayTemperature")
 var displayHumidity = $("#displayhumidity")
 var displaywind = $("#displayWind")
 var displayUV= $("#displayUV")
+var temp1 =$("#DisTemp1")
+var humid1 =$("#humid1")
 
 
 
 
     // CODE GOES HERE
-    
+    $.ajax({
+      url: fivedayURL,
+      method: "GET"
+    }).then(function(response1) {
+      temp1.text(response1.list[0].main.temp)
+      humid1.text(response1.list[1].main.humidity)
+      
+
+
+      console.log(response1.list[1].main.humidity)
+     
+    })
+
     $.ajax({
   url: queryURL,
   method: "GET"
-}).then(function(response) {
-    console.log(response)
+}).then(function(response2) {
+    console.log(response2)
 
     displayCity.text(city)
  displayTemperature.text((response.main.temp-273.15)*(1.8)+(32));

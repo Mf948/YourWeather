@@ -30,60 +30,55 @@
     <div class="jumbotron">
 
     <div class="row">
-      <div class="col-lg-2 col-sm-2">   <ul   class="list-group1">
-        <h5>Important City:</h5>
-    <li class="list-group-item">New York City</li>
-    <li class="list-group-item">Los Angeles</li>
-    <li class="list-group-item">Chicago,IL</li>
-    <li class="list-group-item">Huston,TX</li>
-    <li class="list-group-item">Phoenix,AZ</li>
+      <div class="col-lg-2 col-sm-2">  
+        
+   <ul class="list-NewCity">
+    <li class="list-group-item"></li>
   </ul>        </div><div class="container">
        
-        <div class="card" style="width: 18rem;">
+       <div class="card" style="width: 18rem;">
        <!----- <img class="card-img-top" src="..." alt="Card image cap">-->
-        <div class="card-body">
-          <h5 class="card-title"><h5 id ="displaycity"></h5></h5>
-          <p class="card-text">Temperature: <h5 id ="displayTemperature"></h5></p>
-        </div>
+        <div class="card-body" id="mainDisplay">
+          <h5 class="card-city"><h5 id ="displaycity"></h5></h5>
+          <p class="card-temperature">Temperature: <h5 id ="displayTemperature">---</h5></p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Humidity: <h5 id ="displayhumidity"></h5> </li>
-          <li class="list-group-item">Wind Speed: <h5 id ="displayWind"></h5></li>
-          <li class="list-group-item">UV index:<h5 id ="displayUV"></h5>  </p></li>
+          <li class="list-group-humidity">Humidity(%): <h5 id ="displayhumidity">---</h5> </li>
+          <li class="list-group-windSpeed">Wind Speed (mph): <h5 id ="displayWind">---</h5></li>
+          <li class="list-group-index">UV index:<h5 id ="displayUV">---</h5>  </p></li>
         </ul>
         </div>
       </div>
-      </div>
-      </div>
+     
       <head>5 Day Forecast:</head>
       <div id="day1" class="card text-white bg-info mb-3" style="max-width: 18rem;">
         <div class="card-header">Date</div>
         <div class="card-body">
-          <h5 class="card-title">Temperature:<h5 id ="DisTemp1"></h5>
-          <p class="card-text">Humidity:<h5 id ="humid1"></h5></p>
+          <h5 class="card-title">Temperature:<h5 id ="DisTemp1">---</h5>
+          <p class="card-text">Humidity(%):<h5 id ="humid1">---</h5></p>
         </div>
         <div id="day2" class="card text-white bg-info mb-3" style="max-width: 18rem;">
           <div class="card-header">Date</div>
           <div class="card-body">
-            <h5 class="card-title">Temperature:<h5 id ="DisTemp2"></h5>
-            <p class="card-text">Humidity:<h5 id ="humid2"></h5></p>
+            <h5 class="card-title">Temperature:<h5 id ="DisTemp2">---</h5>
+            <p class="card-text">Humidity(%):<h5 id ="humid2">---</h5></p>
           </div>
           <div id="day3" class="card text-white bg-info mb-3" style="max-width: 18rem;">
             <div class="card-header">Date</div>
             <div class="card-body">
-              <h5 class="card-title">Temperature:<h5 id ="DisTemp3"></h5>
-              <p class="card-text">Humidity:<h5 id ="humid3"></h5></p>
+              <h5 class="card-title">Temperature:<h5 id ="DisTemp3">---</h5>
+              <p class="card-text">Humidity(%):<h5 id ="humid3">---</h5></p>
             </div>
             <div id="day4" class="card text-white bg-info mb-3" style="max-width: 18rem;">
               <div class="card-header">Date</div>
               <div class="card-body">
-                <h5 class="card-title">Temperature:<h5 id ="DisTemp4"></h5>
-                <p class="card-text">Humidity:<h5 id ="humid4"></h5></p>
+                <h5 class="card-title">Temperature:<h5 id ="DisTemp4">---</h5>
+                <p class="card-text">Humidity(%):<h5 id ="humid4">---</h5></p>
               </div>
               <div id="day4" class="card text-white bg-info mb-3" style="max-width: 18rem;">
                 <div class="card-header">Date</div>
                 <div class="card-body">
-                  <h5 class="card-title">Temperature:<h5 id ="DisTemp5"></h5>
-                  <p class="card-text">Humidity:<h5 id ="humid5"></h5></p>
+                  <h5 class="card-title">Temperature:<h5 id ="DisTemp5">---</h5>
+                  <p class="card-text">Humidity(%):<h5 id ="humid5">---</h5></p>
                 </div>
       
     

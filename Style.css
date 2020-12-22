@@ -1,0 +1,15 @@
+
+.low {
+    background-color: #77dd77;
+    color: rgb(211, 9, 9);
+  }
+  .high {
+    background-color: #ff6961;
+    color: white;
+  }
+
+
+.moderate {
+    background-color: #e9ac3c;
+    color: white;
+  }
